@@ -71,8 +71,8 @@ describe('simple database', () => {
     };
 
     const expected = {
-     id: expect.any(String),
-     ...obj2 
+      id: expect.any(String),
+      ...obj2
     };
 
     const simpleDb = new SimpleDb(rootDir);
